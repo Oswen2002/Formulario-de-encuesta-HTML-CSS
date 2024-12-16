@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <title>Survey form</title>
+</head>
+<body>
+    <h1 id="title">Formulario de Encuesta</h1>
+    <p id="description">Esto es un formulario de encuesta hecho por: Oswen Solis</p>
+
+    <form action="" id="survey-form">
+        <fieldset>
+            <legend>Debe llenar todos los campos de texto: </legend>
+            <label for="name" id="name-label">Ingrese su nombre: <input type="text" id="name" placeholder="Escriba su nombre aqui" required></label>
+            <label for="email" id="email-label">Ingrese su correo: <input type="email" id="email" placeholder="Escriba su correo electrónico aquí" required></label>
+            <label for="number" id="number-label">Ingrese un numero: <input type="number" min="0" max="10" id="number" placeholder="Escriba su número aqui"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Elija una opción: </legend>
+            <select id="dropdown">
+                <option value="">Seleccione una opción</option>
+                <option value="1">Opción 1</option>
+                <option value="2">Opción 2</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Elija una opción: </legend>
+            <label for="btnOp1"><input type="radio" name="btnradio" id="btnOp1" value="1">Opción 1</label>
+            <label for="btnOp2"><input type="radio" name="btnradio" id="btnOp2" value="2">Opción 2</label>
+        </fieldset>
+        <fieldset>
+            <legend>Elija una opción: </legend>
+            <label for="chkOp1">Opción 1<input type="checkbox" name="" id="chkOp1" value="1"></label>
+            <label for="chkOp2">Opción 2<input type="checkbox" name="" id="chkOp2" value="2"></label>
+            <label for="chkOp3">Opción 3<input type="checkbox" name="" id="chkOp3" value="3"></label>
+            <label for="chkOp4">Opción 4<input type="checkbox" name="" id="chkOp4" value="4"></label>
+            <label for="chkOp5">Opción 5<input type="checkbox" name="" id="chkOp5" value="5"></label>
+            <label for="chkOp6">Opción 6<input type="checkbox" name="" id="chkOp6" value="6"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Llene la caja de texto: </legend>
+            <textarea name="textarea" id="textarea" rows="3" cols="30">
+
+            </textarea>
+        </fieldset>
+        <input type="submit" id="submit" value="Subir"/>
+    </form>
+</body>
+</html>
+
+<!--Survey form project certificate FreeCodeCamp-->
